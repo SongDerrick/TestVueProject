@@ -1,17 +1,26 @@
 <template>
+  <!-- <div id="app">
+    <md-card class="md-with-hover">
+      <md-card-header>
+        <div class="md-title">
+          DEMO
+        </div>
+      </md-card-header>
+    </md-card>
+  </div> -->
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <DemoDrink></DemoDrink>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import DemoDrink from './components/DemoDrink.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components : {
+    DemoDrink
   }
 }
 </script>
